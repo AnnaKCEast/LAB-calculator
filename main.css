@@ -1,0 +1,40 @@
+body {
+  box-sizing: 100%;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  flex-wrap: nowrap;
+  width: 400px;
+  height: 400px;
+}
+
+
+.result {
+  background-color: black;
+}
+
+.wrapper {
+  background-color:black;
+  width:400px;
+  height:400px;
+
+
+}
+ 
+.button {
+  background-color: grey;
+ word-spacing:.75em;
+}
+
+.zero {
+  background-color: grey;
+  
+}
+
+.symbol{
+  background-color: orange;
+}
+
+.clear {
+  width:400px
+}
