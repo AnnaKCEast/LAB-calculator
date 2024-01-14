@@ -1,50 +1,50 @@
-body {
- 
-    display: flex;
-    width: 100%;
-    height: 250px;
-    flex-direction: space-between;
-    
-}
+
 
 .wrapper { 
-  justify-content: center; 
+  display: grid;
   flex-wrap: wrap;
+  flex-direction: row;
   background-color:black;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  justify-content: center; 
+  width: 400px;
+  height: 400px;
+
   }
 
-.number {  
+.result {  
   background-color: black;
-  width: 100%;
   color: white;
+  padding-inline-start: 0%;
+  padding: 15px 25px;
+  font-size: 32px;
+  text-align: right;
+  }
 
-}
-.clearbutton {
-  width: 100%
-}
-.buttonrow1 {
- width:100%
- 
-}
-.buttonrow2 {
-width:100%;
-}
-
-.buttonrow3 {
-  width:100%,
-}
-
-.buttonrow4 {
-  width: 100%;
-}
 .button {
-  background-color: lightgray;
-  
+  background-color: lightgray; 
+  padding-inline-start: 0%;
+  padding:15px 30px;
 }
 .symbol {
   background-color: orange;
+  padding-inline-start: 0%;
+  color: white;
+  padding: 15px 32px;
+}
+
+.clear {
+  
+  text-align: center;
+  padding: 15px 50px;
+ 
+}
+.row {
+  
+  padding:15px 50px;
+  padding-top: 1px ;
+  
+  
+}
+.zero {
+padding: 15px 105px;
 }
